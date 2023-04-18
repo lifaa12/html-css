@@ -85,3 +85,12 @@ table {
 .twitter span{
     color: #00aaec;
 }
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+.header h1{
+	background-image: url(/img/logo.png);
+	width: 224px;
+	height: 50px;
+}
