@@ -108,6 +108,7 @@ table {
 	font-weight: bold;
 	color: #00cc99;
 	padding: 16px;
+	border-bottom: 5px solid transparent;
 }
 .menu a:hover{
 	border-bottom: 5px solid #00cc99;
@@ -127,4 +128,34 @@ table {
 	line-height: 45px;
 	padding: 40px 0px 40px 23px;
 	background: #00000050;
+}
+.course{
+	display: flex;
+	justify-content: space-around;
+}
+.course-item{
+	width: 303px;
+	border-left: 2px solid #f1f1f1;
+	border-right: 2px solid #f1f1f1;
+	border-bottom: 2px solid #f1f1f1;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 0px 5px 4px -4px gray;
+	margin-top: 65px;
+	padding: 0px 20px 23px 20px;
+}
+.course-item img{
+	width: 280px;
+}
+.course-item h3{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.course-item p, .list li{
+	line-height: 22px;
+}
+.list{
+	list-style-type: disc;
+	padding-left: 22px;
 }
