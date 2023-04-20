@@ -143,6 +143,9 @@ table {
 	margin-top: 65px;
 	padding: 0px 20px 23px 20px;
 }
+.course-item:hover{
+	box-shadow: 0px 0px 10px gray;
+}
 .course-item img{
 	width: 280px;
 }
@@ -158,4 +161,31 @@ table {
 .list{
 	list-style-type: disc;
 	padding-left: 22px;
+}
+.tableh2{
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+.table{
+	margin: 0 auto;
+}
+.table th, td{
+	padding: 10px 0px 15px 30px;
+	width: 220px;
+	text-align: left;
+}
+.table th{
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	background: #f7f7f7;
+	font-weight: bold;
+}
+.table td{
+	border-bottom: 1px solid #dddddd;
+}
+.table .green{
+	color: #42b392;
 }
