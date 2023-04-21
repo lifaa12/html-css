@@ -237,3 +237,18 @@ table {
 .details .btn:hover{
 	background: #03ac81;
 }
+.footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 20px;
+}
+.footer img{
+	height: 36px;
+}
+.footer ul li{
+	line-height: 25px;
+}
+.footer ul li a{
+	text-decoration: none;
+	color: #e12d80;
+}
