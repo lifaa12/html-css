@@ -186,6 +186,9 @@ table {
 .table td{
 	border-bottom: 1px solid #dddddd;
 }
+.table tr:hover{
+	background: #f3f0f0;
+}
 .table .green{
 	color: #42b392;
 }
@@ -251,4 +254,8 @@ table {
 .footer ul li a{
 	text-decoration: none;
 	color: #e12d80;
+}
+.footer ul li a:hover{
+	text-decoration: underline;
+	color: #ee6aa8;
 }
