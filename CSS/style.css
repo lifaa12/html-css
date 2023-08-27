@@ -98,11 +98,15 @@ table {
 	white-space: nowrap;
 	margin-left: 5px;
 }
+.menu-jq-class{
+	border-bottom: 5px solid #00cc99 !important;
+}
 .menu{
 	display: flex;
 	margin-right: 15px;
+	position: relative;
 }
-.menu a{
+.menu>li>a{
 	display: block;
 	text-decoration: none;
 	font-weight: bold;
@@ -110,11 +114,30 @@ table {
 	padding: 16px;
 	border-bottom: 5px solid transparent;
 }
+.menu-product{
+	display: none;
+	position: absolute;
+	top: 53px;
+}
+.menu-product a{
+	display: block;
+	text-decoration: none;
+	color: #00cc99;
+	padding: 5px;
+	border-bottom: 5px solid transparent;
+	background: #fff;
+	opacity: 0.8;
+}
 .menu a:hover{
 	border-bottom: 5px solid #00cc99;
 }
+.menu-product a:hover{
+	opacity: 1;
+	border-bottom: 5px solid transparent;
+}
 .banner{
 	position: relative;
+	z-index: -1;
 }
 .banner img{
 	width: 1000px;
@@ -230,14 +253,17 @@ table {
 	font-weight: bold;
 }
 .details .btn{
+	display: flex;
+	justify-content: flex-end;
+}
+.details .btn input{
 	width: 70px;
 	height: 32px;
 	background: #00cc99;
 	color: #fff;
-	margin-left: 390px;
 	cursor: pointer;
 }
-.details .btn:hover{
+.details .btn input:hover{
 	background: #03ac81;
 }
 .footer{
