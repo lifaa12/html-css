@@ -48,7 +48,12 @@ table {
 }
 *,*:before,*:after{
     box-sizing: border-box;
-  }
+}
+body i{
+	position: absolute;
+	right: 30px;
+	bottom: -540px;
+}
 .wrap{
     margin: 0 auto;
     width: 1000px;
@@ -118,6 +123,7 @@ table {
 	display: none;
 	position: absolute;
 	top: 53px;
+	z-index: 99;
 }
 .menu-product a{
 	display: block;
@@ -135,11 +141,12 @@ table {
 	opacity: 1;
 	border-bottom: 5px solid transparent;
 }
-.banner{
-	position: relative;
-	z-index: -1;
+.swiper{
+	width: 1000px;
+	height: 400px;
 }
-.banner img{
+.swiper img{
+	height: 400px;
 	width: 1000px;
 }
 .banner-text{
@@ -151,6 +158,7 @@ table {
 	line-height: 45px;
 	padding: 40px 0px 40px 23px;
 	background: #00000050;
+	z-index: 9;
 }
 .course{
 	display: flex;
@@ -168,6 +176,7 @@ table {
 }
 .course-item:hover{
 	box-shadow: 0px 0px 10px gray;
+	transform: translateY(-10px);
 }
 .course-item img{
 	width: 280px;
