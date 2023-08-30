@@ -1,8 +1,4 @@
 $(document).ready(function () {
-    // $(".menu-product-click").click(function (e) { 
-    //     e.preventDefault();
-    //     $(".menu-product").slideToggle();
-    // });
     $(".menu-product-click").hover(function () {
             // over
             $(".menu-product").stop().slideDown();
@@ -13,4 +9,9 @@ $(document).ready(function () {
             $(".menu-product-click>a").removeClass("menu-jq-class");
         }
     );
+    $(".top-btn").click(function (e) { 
+        e.preventDefault();
+        $("html,body").animate({
+            scrollTop:0},1000);
+    });
 });

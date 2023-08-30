@@ -49,11 +49,6 @@ table {
 *,*:before,*:after{
     box-sizing: border-box;
 }
-body i{
-	position: absolute;
-	right: 30px;
-	bottom: -540px;
-}
 .wrap{
     margin: 0 auto;
     width: 1000px;
@@ -274,6 +269,12 @@ body i{
 }
 .details .btn input:hover{
 	background: #03ac81;
+}
+.top-btn{
+	position: absolute;
+	right: 50px;
+	bottom: -500px;
+	cursor: pointer;
 }
 .footer{
 	display: flex;
