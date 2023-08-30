@@ -52,6 +52,13 @@ table {
 .wrap{
     margin: 0 auto;
     width: 1000px;
+	position: relative;
+}
+.top-btn{
+	position: absolute;
+	right: -70px;
+	bottom: 150px;
+	cursor: pointer;
 }
 .topbar{
     display: flex;
@@ -269,12 +276,6 @@ table {
 }
 .details .btn input:hover{
 	background: #03ac81;
-}
-.top-btn{
-	position: absolute;
-	right: 50px;
-	bottom: -500px;
-	cursor: pointer;
 }
 .footer{
 	display: flex;
