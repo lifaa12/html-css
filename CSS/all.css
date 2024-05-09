@@ -73,31 +73,31 @@ table {
   cursor: pointer;
 }
 
-.navbar {
+.topbar {
   display: flex;
   justify-content: flex-end;
   background: #f6f6f6;
   padding: 5px 15px 5px 0px;
 }
-.navbar a {
+.topbar a {
   text-decoration: none;
 }
-.navbar a:hover img + span {
+.topbar a:hover img + span {
   color: #b30059;
 }
-.navbar img {
+.topbar img {
   vertical-align: bottom;
 }
-.navbar span {
+.topbar span {
   font-size: 15px;
 }
-.navbar .facebook span {
+.topbar .facebook span {
   color: #4460a0;
 }
-.navbar .twitter {
+.topbar .twitter {
   padding-left: 10px;
 }
-.navbar .twitter span {
+.topbar .twitter span {
   color: #00aaec;
 }
 
