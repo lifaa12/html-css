@@ -42,6 +42,8 @@
 .header{
 	display: flex;
 	justify-content: space-between;
+    // z-index要生效的話，position不可為預設值
+    position: relative;
     z-index: 10;
     h1 a{
         display: block;
